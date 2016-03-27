@@ -38,10 +38,10 @@ def convert(n,i):
         ans_arr.append(hex(int(ans, 2)))
     return ans_arr
 
-#readFile=str(sys.argv[1])
+readFile=str(sys.argv[1])
 f=open('utf8encoder_out.txt', 'w')
 f.close()
-with open('C:/Python34/NLP/english_in.txt',"rb") as readInp:
+with open(readFile,"rb") as readInp:
     byte=b"a"
     while byte:
         byte=readInp.read(1)
