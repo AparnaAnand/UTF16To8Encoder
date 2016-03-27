@@ -1,0 +1,1 @@
+Program takes first parameter in the command line to be the file to be encoded, assumes it is in UTF 16 and encodes it to UTF 8. The output is a UTF 8 encoded .txt file.
